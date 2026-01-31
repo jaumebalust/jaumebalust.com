@@ -43,7 +43,7 @@ export default function About() {
             <div className="bg-[#1a1a24] border border-[#2a2a3a] rounded-xl p-6">
               <h3 className="text-lg font-semibold mb-4 text-indigo-400">🌍 Languages</h3>
               <p className="text-[#8888a0] leading-relaxed">
-                Fluent in Spanish (native), English (fluent), and Catalan (native).
+                Fluent in Spanish (native), English (fluent), Catalan (native), and French (fluent).
                 Based in San Luis Potosí, Mexico — originally from Barcelona.
               </p>
             </div>

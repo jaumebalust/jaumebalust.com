@@ -27,7 +27,7 @@ export default function Hero() {
             📍 San Luis Potosí, Mexico · Originally from Barcelona
           </p>
           <p className="text-sm text-[#8888a0] mb-10">
-            Fluent in Spanish, English, and Catalan.
+            Fluent in Spanish, English, Catalan, and French.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

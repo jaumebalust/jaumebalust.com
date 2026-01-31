@@ -1,7 +1,6 @@
 "use client";
 
 import AnimatedSection from "./AnimatedSection";
-import ChessBoard from "./ChessBoard";
 
 interface Project {
   name: string;
@@ -41,7 +40,7 @@ const projects: Project[] = [
     url: "https://sharechess.com",
     icon: "♟️",
     description:
-      "Share your favorite chess board positions via WhatsApp. Try the interactive board below!",
+      "Share your favorite chess board positions via WhatsApp.",
     tech: ["JavaScript", "Web APIs"],
   },
 ];
@@ -56,7 +55,7 @@ export default function Projects() {
           </h2>
         </AnimatedSection>
 
-        <div className="grid md:grid-cols-2 gap-6 mb-16">
+        <div className="grid md:grid-cols-2 gap-6">
           {projects.map((project, i) => (
             <AnimatedSection key={project.name} delay={i * 0.1}>
               <a
@@ -91,25 +90,6 @@ export default function Projects() {
             </AnimatedSection>
           ))}
         </div>
-
-        {/* Interactive Chess Showcase */}
-        <AnimatedSection delay={0.2}>
-          <div className="bg-[#1a1a24] border border-[#2a2a3a] rounded-xl p-8">
-            <div className="text-center mb-6">
-              <span className="inline-block px-3 py-1 text-xs font-mono text-[#00e676] bg-[#00e676]/10 rounded-full border border-[#00e676]/20 mb-3">
-                React Interactive Demo
-              </span>
-              <h3 className="text-xl font-semibold mb-2">
-                Interactive Chess Board
-              </h3>
-              <p className="text-[#8888a0] text-sm">
-                Click pieces to select, then click a square to move. Built with
-                React state management + Framer Motion.
-              </p>
-            </div>
-            <ChessBoard />
-          </div>
-        </AnimatedSection>
       </div>
     </section>
   );
