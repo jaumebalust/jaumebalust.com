@@ -33,7 +33,7 @@ const highlights = [
     title: "Kiwi Last Mile — Logistics at Scale",
     description:
       "Built from scratch an orchestration app handling 40+ drivers and 500+ deliveries daily for a last-mile delivery provider in Barcelona.",
-    metrics: ["500+ deliveries/day", "40+ drivers", "Built from scratch"],
+    metrics: ["500+ deliveries/day", "40+ drivers", "Built before coding agents"],
     color: "#f472b6",
   },
 ];
