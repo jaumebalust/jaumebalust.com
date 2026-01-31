@@ -34,8 +34,9 @@ export default function About() {
             <div className="bg-[#1a1a24] border border-[#2a2a3a] rounded-xl p-6">
               <h3 className="text-lg font-semibold mb-4 text-indigo-400">🚀 Currently</h3>
               <p className="text-[#8888a0] leading-relaxed">
-                Currently at Algebrakit, working with TypeScript, React, Docker, Kubernetes,
-                Redis, GraphQL, and WebSockets.
+                Currently at Algebrakit, building math widgets serving 100K+ students daily
+                across the Netherlands, Belgium, Singapore, and more. Working with TypeScript,
+                React, Docker, Kubernetes, Redis, GraphQL, and WebSockets.
               </p>
             </div>
           </AnimatedSection>
@@ -44,7 +45,7 @@ export default function About() {
               <h3 className="text-lg font-semibold mb-4 text-indigo-400">🌍 Languages</h3>
               <p className="text-[#8888a0] leading-relaxed">
                 Fluent in Spanish (native), English (fluent), Catalan (native), and French (fluent).
-                Based in San Luis Potosí, Mexico — originally from Barcelona.
+                Lived in 5 countries across 3 continents. Based in San Luis Potosí, Mexico.
               </p>
             </div>
           </AnimatedSection>

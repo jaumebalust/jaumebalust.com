@@ -16,6 +16,10 @@ const experiences: ExperienceItem[] = [
     company: "Algebrakit",
     period: "Nov 2023 – Present",
     tech: "TypeScript, React, Docker, Kubernetes, Redis, GraphQL, WebSockets",
+    details: [
+      "Building math widgets serving 100K+ students daily across the Netherlands, Belgium, Singapore, and more",
+      "Scaling educational technology for international markets",
+    ],
   },
   {
     role: "CTO → Consultant",
