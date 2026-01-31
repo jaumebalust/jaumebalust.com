@@ -21,10 +21,10 @@ const categories: SkillCategory[] = [
     icon: "🎨",
     color: "#818cf8",
     skills: [
-      { name: "TypeScript", level: 95 },
-      { name: "React", level: 85 },
-      { name: "Next.js", level: 80 },
-      { name: "Vue.js", level: 95 },
+      { name: "TypeScript", level: 100 },
+      { name: "React", level: 100 },
+      { name: "Next.js", level: 100 },
+      { name: "Vue.js", level: 100 },
     ],
   },
   {
@@ -32,10 +32,10 @@ const categories: SkillCategory[] = [
     icon: "⚙️",
     color: "#6366f1",
     skills: [
-      { name: "Laravel", level: 95 },
-      { name: "FastAPI", level: 80 },
-      { name: "Python", level: 80 },
-      { name: "PHP", level: 95 },
+      { name: "Laravel", level: 100 },
+      { name: "FastAPI", level: 100 },
+      { name: "Python", level: 100 },
+      { name: "PHP", level: 100 },
     ],
   },
   {
@@ -43,10 +43,10 @@ const categories: SkillCategory[] = [
     icon: "☁️",
     color: "#00e676",
     skills: [
-      { name: "AWS", level: 85 },
-      { name: "Docker", level: 85 },
-      { name: "Kubernetes", level: 75 },
-      { name: "Serverless", level: 90 },
+      { name: "AWS", level: 100 },
+      { name: "Docker", level: 100 },
+      { name: "Kubernetes", level: 100 },
+      { name: "Serverless", level: 100 },
     ],
   },
   {
@@ -54,10 +54,10 @@ const categories: SkillCategory[] = [
     icon: "🗄️",
     color: "#f472b6",
     skills: [
-      { name: "SQL", level: 90 },
-      { name: "Redis", level: 80 },
-      { name: "GraphQL", level: 80 },
-      { name: "REST APIs", level: 95 },
+      { name: "SQL", level: 100 },
+      { name: "Redis", level: 100 },
+      { name: "GraphQL", level: 100 },
+      { name: "REST APIs", level: 100 },
     ],
   },
   {
@@ -65,9 +65,9 @@ const categories: SkillCategory[] = [
     icon: "🤖",
     color: "#fbbf24",
     skills: [
-      { name: "RAG", level: 85 },
-      { name: "LLM Integration", level: 85 },
-      { name: "AI Agents", level: 80 },
+      { name: "RAG", level: 100 },
+      { name: "LLM Integration", level: 100 },
+      { name: "AI Agents", level: 100 },
     ],
   },
   {
@@ -75,8 +75,8 @@ const categories: SkillCategory[] = [
     icon: "⚡",
     color: "#22d3ee",
     skills: [
-      { name: "WebSockets", level: 85 },
-      { name: "Real-time Analytics", level: 80 },
+      { name: "WebSockets", level: 100 },
+      { name: "Real-time Analytics", level: 100 },
     ],
   },
 ];
