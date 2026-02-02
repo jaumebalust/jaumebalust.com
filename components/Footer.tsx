@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <footer className="py-8 px-4 border-t border-[#2a2a3a] text-center space-y-2">
       <p className="text-[#8888a0] text-sm">
-        🎂 Feliz Cumpleaños Lucy 🎉
+        Greetings from the Netherlands 🇳🇱
       </p>
       <p className="text-[#8888a0]/60 text-xs">
         Powered by{" "}
